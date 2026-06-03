@@ -1,3 +1,12 @@
+.hamburger {
+    display: none;
+    font-size: 28px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
 @media (max-width: 768px) {
     .nav-links {
         display: none;
@@ -15,7 +24,7 @@
         display: flex;
     }
 
-    .nav-Links li {
+    .nav-links li {
         padding: 10px 0;
     }
 
