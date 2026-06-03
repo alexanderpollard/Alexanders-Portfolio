@@ -15,8 +15,8 @@
         <div class="logo">MyBrand</div>
         <ul class="nav-links" id="navLinks">
             <li><a href="index.php">Home</a></li>
-            <li><a href="index.php">About</a></li>
-            <li><a href="index.php">Projects</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="projects.php">Projects</a></li>
             <li><a href="contact.php">Contact</a></li>
         </ul>
         <button class="hamburger" id="hamburgerBtn">&#9776;</button>
