@@ -54,3 +54,15 @@
     }
 }
 
+@media (max-width: 768px) {
+    .cert-card {
+        flex-direction: column;
+    }
+    
+    .cert-media {
+        width: 100%;
+        height: 150px;
+        border-right: none;
+        border-bottom: 1px solid #eee;
+    }
+}

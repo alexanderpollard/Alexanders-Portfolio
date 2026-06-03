@@ -256,3 +256,92 @@ footer p {
 .contact-list li strong {
     color: #ff416c;
 }
+
+.certs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.cert-card {
+    display:flex;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    border: 1px solid #eee;
+}
+.cert-media {
+    width: 200px;
+    min-width: 200px;
+    background-color: #fcfcfc;
+    border-right: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cert-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cert-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ff4b2b;
+    gap: 8px;
+    font-weight: bold;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cert-placeholder svg {
+    width: 50px;
+    height: 50px;
+    opacity: 0.8;
+}
+
+.cert-info {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.cerft-info h3 {
+    margin: 0 0 5px 0;
+    color: #222;
+    font-size: 11.3rem;
+}
+
+.cert-meta {
+    margin: 0 0 15px 0;
+    color: #666;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.cert-skills-box h4 {
+    margin: 0 0 8px 0;
+    font-size: 0.85rem;
+    color: #444;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.mini-tag {
+    background-color: #fff0ec;
+    color: #d43213;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: 1px solid rgba(255, 75, 43, 0.15);
+}
