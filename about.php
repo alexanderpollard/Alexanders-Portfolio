@@ -6,21 +6,26 @@ $my_skills = ["HTML", "CSS", "JavaScript", "PHP"];
 
 $my_experience = [
     [
-        "year" => "2025 - Present",
+        "year" => "Aug 2025 - Present",
         "title" => "IT Assistant",
         "desc" => "IT Assistant Intern at Salmon Health, where I support networking systems and assist residents with their devices, gaining hands-on experience in technical support, face-to-face customer service, and professional workplace etiquette."
 
-    ],
-    
+    ],    
+    [
+        "year" => "Jun 2022 - Aug 2025",
+        "title" => "Actor",
+        "desc" => "A small professional stage production for young actors."
+
+    ]
 ];
 
 $my_certifications = [
     [
-        "title" => "title",
-        "issuer" => "issuer",
-        "date" => "date",
-        "image" => "", //Left blank triggers the image to be filled as a place holder image
-        "skills_learned" => ["skill1", "skill2", "skill3"]
+        "title" => "IT Specialist - Cybersecurity",
+        "issuer" => "Certiport - A Pearson VUE Business",
+        "date" => "May 2025",
+        "image" => "assets/images/Copy of CybersecurityCert.jpg", //Left blank triggers the image to be filled as a place holder image
+        "skills_learned" => ["Troubleshooting", "Cybersecurity", "Information Security Awareness", "Network Security", "Risk Management", "Ethical Hacking", "Incident Response", "Security Policies", "Access Control", "Cryptography"]
     ],
     
     [
