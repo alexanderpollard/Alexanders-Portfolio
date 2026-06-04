@@ -18,6 +18,7 @@
             <li><a href="about.php">About</a></li>
             <li><a href="projects.php">Projects</a></li>
             <li><a href="contact.php">Contact</a></li>
+            <li><a href="school.php">Academics</a></li>
         </ul>
         <button class="hamburger" id="hamburgerBtn" type="button" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
     </nav>
