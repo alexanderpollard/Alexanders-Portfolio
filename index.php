@@ -4,9 +4,9 @@ include 'includes/header.php';
 
 <main class="hero-section">
     <div class="hero-copy">
-        <h1>Computer Information Systems student, IT professional in training, and aspiring software engineer.</h1>
-        <p class="eyebrow">Hi, I’m Alexander Pollard</p>
-        <p class="hero-text">I’m a senior at Tri-County Regional Vocational Technical High School studying Computer Information Systems, passionate about technology, innovation, and helping people solve problems through technology. I’m actively building skills in web development, networking, cybersecurity, and artificial intelligence while gaining real-world experience through my internship at SALMON Health and Retirement.</p>
+        <h1>Hi, I’m Alexander Pollard</h1>
+        <p class="eyebrow">Computer Information Systems, IT professional in training, and aspiring software engineer.</p>
+        <p class="hero-text">As a graduate from Tri-County Regional Vocational Technical High School studying Computer Information Systems, passionate about technology, innovation, and helping people solve problems through technology. I’m actively building skills in web development, networking, cybersecurity, and artificial intelligence while gaining real-world experience through my internship at SALMON Health and Retirement.</p>
         <a href="about.php" class="btn">Learn More About Me</a>
     </div>
 
