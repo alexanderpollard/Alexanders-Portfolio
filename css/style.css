@@ -453,35 +453,51 @@ footer p {
 
 .project-skills-footer {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     gap: 12px;
-    border-top: 1px dashed #f0f0f0;
-    padding-top: 16px;
+    border-top: 1px dashed rgba(224, 224, 224, 0.8);
+    padding-top: 18px;
+    margin-top: 18px;
 }
 
 .skills-label {
-    font-size: 0.85rem;
+    font-size: 0.78rem;
     text-transform: uppercase;
-    letter-spacing: 0.8px;
-    font-weight: 700;
-    color: #999999;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #a16d60;
+    margin-top: 4px;
 }
 
 .skills-tags-wrap {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 10px;
+    min-height: 40px;
 }
 
+.skill-tag,
 .project-skill-tag {
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: #d43213;
-    background-color: #fff0ec;
-    padding: 4px 12px;
-    border-radius: 6px;
-    border: 1px solid rgba(255, 75, 43, 0.08);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #b53f2e;
+    background: linear-gradient(135deg, rgba(255, 75, 43, 0.16), rgba(255, 183, 160, 0.22));
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 75, 43, 0.1);
+    box-shadow: 0 10px 18px rgba(255, 75, 43, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+}
+
+.skill-tag:hover,
+.project-skill-tag:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 28px rgba(255, 75, 43, 0.14);
+    background: linear-gradient(135deg, rgba(255, 75, 43, 0.24), rgba(255, 152, 133, 0.28));
 }
 
 .project-divider {
