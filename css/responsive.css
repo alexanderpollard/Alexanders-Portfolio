@@ -66,3 +66,21 @@
         border-bottom: 1px solid #eee;
     }
 }
+
+    .timeline-projects-container {
+        margin: 30px 16px;
+        border-radius: 12px;
+    }
+    .projects-section-header {
+        padding: 24px 24px 0 24px;
+    }
+    .projects-list {
+        padding: 10px 24px 24px 24px;
+    }
+    .project-links-row {
+        width: 100%;
+    }
+    .lnk-btn {
+        flex-grow: 1;
+        justify-content: center;
+    }
