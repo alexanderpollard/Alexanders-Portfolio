@@ -29,13 +29,38 @@ $my_certifications = [
     ],
     
     [
-        "title" => "title",
-        "issuer" => "issuer",
-        "date" => "date",
-        "image" => "assets/images/cert.jpg",
-        "skills_learned" => ["skill1", "skill2", "skill3"]
+        "title" => "Computer Hardware Basics",
+        "issuer" => "Cisco Networking Academy",
+        "date" => "Jun 2024",
+        "image" => "",
+        "skills_learned" => ["Help Desk Support", "Computer Hardware Installation", "Computer Technology", "Attention to Detail", "Computer Literacy", "Computer Repair", "Active Directory Experience", "Command Prompt", "Computer Science Education", "Remote Desktop", "Markup Languages", "IT Services", "Microsoft 365", "Desktop Computers"]
+    ],
+    
+    [
+        "title" => "IT Specialist - HTML and CSS",
+        "issuer" => "Certiport - A Pearson VUE Business",
+        "date" => "Jun 2023",
+        "image" => "assets/images/Cert25412727332.jpg", //Left blank triggers the image to be filled as a place holder image
+        "skills_learned" => ["Pixel Art", "Computer Technology", "Responsive Web Design", "Attention to Detail", "Web Pages", "Cascading Style Sheets (CSS)", "Programming Languages", "Web Development", "Software Development", "Data Analysis", "HTML", "IT Services", "Document Coding", "Programming", "Independence", "Web Design"]
+    ],
+
+    [
+        "title" => "IT Specialist - Device Configuration and Management",
+        "issuer" => "Certiport - A Pearson VUE Business",
+        "date" => "Feb 2024",
+        "image" => "assets/images/Cert1408370148.jpg", //Left blank triggers the image to be filled as a place holder image
+        "skills_learned" => ["Help Desk Support", "Computer Technology", "Attention to Detail", "Windows 10", "Computer Literacy", "Computer Repair", "IT Management", "Active Directory Experience", "Command Prompt", "Computer Science Education", "Remote Desktop", "Active Directory", "Markup Languages", "IT Services", "Microsoft 365", "Windows 11", "Account Management"]
+    ],
+    
+    [
+        "title" => "CS 121 - OSHA 10-Hour General Industry",
+        "issuer" => "CareerSafe",
+        "date" => "May 2023",
+        "image" => "", //Left blank triggers the image to be filled as a place holder image
+        "skills_learned" => ["Attention to Detail", "Workplace Saftey", "Communication", "OSHA Regulations", "Hazard Identification", "Personal Protective Equipment (PPE)", "Emergency Response", "Workplace Hazards", "Safety Training", "General Industry Safety", "Teamwork"]
     ]
 ];
+
 ?>
 
 <main class="about-container">
