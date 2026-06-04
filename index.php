@@ -3,9 +3,78 @@ include 'includes/header.php';
 ?>
 
 <main class="hero-section">
-    <h1>Hi, I'm a Web Developer</h1>
-    <p>Welcome to my portfolio app built with PHP, HTML, CSS, and JS.</p>
-    <a href="projects.php" class="btn">View My Work</a>
+    <div class="hero-copy">
+        <p class="eyebrow">Hi, I’m Alexander Pollard</p>
+        <h1>Computer Information Systems student, IT professional in training, and aspiring software engineer.</h1>
+        <p class="hero-text">I’m a senior at Tri-County Regional Vocational Technical High School studying Computer Information Systems, passionate about technology, innovation, and helping people solve problems through technology. I’m actively building skills in web development, networking, cybersecurity, and artificial intelligence while gaining real-world experience through my internship at SALMON Health and Retirement.</p>
+        <a href="about.php" class="btn">Learn More About Me</a>
+    </div>
+
+    <section class="home-summary">
+        <div class="summary-card">
+            <h2>Professional Experience</h2>
+            <p>As an IT Support Assistant Intern at SALMON Health and Retirement, I provide technical support to staff and residents across healthcare and assisted living environments. I troubleshoot hardware and software issues, assist with Windows devices, support networking systems, configure user devices, and help end users resolve technical challenges.</p>
+        </div>
+
+        <div class="summary-card">
+            <h2>Education & Training</h2>
+            <p>I have been enrolled in the CIS program at Tri-County Regional Vocational Technical High School since September 2022, developing hands-on experience in IT support, networking, hardware, cybersecurity, web development, programming, operating systems, and professional workplace skills.</p>
+            <ul class="feature-list">
+                <li>Information Technology Support</li>
+                <li>Computer Networking</li>
+                <li>Computer Hardware</li>
+                <li>Cybersecurity Fundamentals</li>
+                <li>Web Development</li>
+                <li>Programming</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="highlight-section">
+        <div class="highlight-card">
+            <h3>Certifications</h3>
+            <ul class="highlight-list">
+                <li>IT Specialist – Device Configuration and Management (Certiport)</li>
+                <li>IT Specialist – HTML and CSS (Certiport)</li>
+                <li>Computer Hardware Basics (Cisco)</li>
+                <li>OSHA 10-Hour General Industry Certification (CareerSafe)</li>
+            </ul>
+        </div>
+
+        <div class="highlight-card">
+            <h3>Technical Skills</h3>
+            <div class="skill-groups">
+                <div>
+                    <h4>IT Support & Infrastructure</h4>
+                    <div class="skill-chip-row">
+                        <span class="skill-chip">Help Desk Support</span>
+                        <span class="skill-chip">Device Configuration</span>
+                        <span class="skill-chip">Windows 10 / 11</span>
+                        <span class="skill-chip">Cisco Meraki</span>
+                        <span class="skill-chip">Sophos</span>
+                    </div>
+                </div>
+                <div>
+                    <h4>Programming & Development</h4>
+                    <div class="skill-chip-row">
+                        <span class="skill-chip">Python</span>
+                        <span class="skill-chip">JavaScript</span>
+                        <span class="skill-chip">HTML</span>
+                        <span class="skill-chip">CSS</span>
+                        <span class="skill-chip">Responsive Web Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="final-note">
+        <div class="final-card">
+            <h2>Looking Toward the Future</h2>
+            <p>My long-term goal is to become a software engineer specializing in artificial intelligence and emerging technologies. I want to build meaningful solutions that improve accessibility, efficiency, and quality of life for people and communities.</p>
+            <p>Thank you for visiting my portfolio. Feel free to explore my projects, certifications, and experiences as I continue building my career in technology.</p>
+        </div>
+    </section>
 </main>
 
 <?php
