@@ -12,7 +12,7 @@
 
 <header>
     <nav class="navbar">
-        <div class="logo">AVP WEB DISIGN</div>
+        <div class="logo">AVPDEV</div>
         <ul class="nav-links" id="navLinks">
             <li><a href="index.php">Home</a></li>
             <li><a href="about.php">About</a></li>
