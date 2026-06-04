@@ -38,6 +38,7 @@ include 'includes/header.php';
                 <li>IT Specialist – HTML and CSS (Certiport)</li>
                 <li>Computer Hardware Basics (Cisco)</li>
                 <li>OSHA 10-Hour General Industry Certification (CareerSafe)</li>
+                <li>IT Specialist – Cybersecurity (Certiport)</li>
             </ul>
         </div>
 
