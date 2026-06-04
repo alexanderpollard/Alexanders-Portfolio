@@ -13,8 +13,8 @@ body {
     min-height: 100vh;
     font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     line-height: 1.6;
-    color: #1f1f1f;
-    background: radial-gradient(circle at top, #ffffff 0%, #f4f4f8 100%);
+    color: #e0e0e0;
+    background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 50%, #0f0f0f 100%);
 }
 
 img,
@@ -51,11 +51,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    background: linear-gradient(90deg, #0f0f0f 0%, #1a1a1a 100%);
     padding: 1.2rem 2.5rem;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
     position: relative;
     z-index: 100;
+    border-bottom: 1px solid rgba(255, 140, 66, 0.15);
 }
 
 .logo {
@@ -119,20 +120,21 @@ main.hero-section h1 {
     font-size: clamp(2.5rem, 5vw, 4.5rem);
     margin-bottom: 1rem;
     letter-spacing: -0.05em;
+    color: #fff;
 }
 
 main.hero-section p {
     max-width: 720px;
     margin: 0 auto 2rem;
     font-size: 1.05rem;
-    color: #3a3a3a;
+    color: #c0c0c0;
 }
 
 .eyebrow {
     display: inline-block;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    color: #ff4b2b;
+    color: #ffb366;
     font-weight: 800;
     margin-bottom: 1rem;
     font-size: 0.9rem;
@@ -163,9 +165,9 @@ main.hero-section p {
 .summary-card,
 .highlight-card,
 .final-card {
-    background: rgba(255, 255, 255, 0.88);
-    border: 1px solid rgba(255, 75, 43, 0.12);
-    box-shadow: 0 18px 40px rgba(15, 15, 15, 0.04);
+    background: rgba(30, 30, 30, 0.7);
+    border: 1px solid rgba(255, 140, 66, 0.2);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.3);
     border-radius: 24px;
     padding: 28px;
 }
@@ -175,14 +177,14 @@ main.hero-section p {
 .final-card h2 {
     margin-top: 0;
     font-size: 1.35rem;
-    color: #1f1f1f;
+    color: #ffb366;
 }
 
 .summary-card p,
 .highlight-card p,
 .final-card p {
     line-height: 1.8;
-    color: #484848;
+    color: #b0b0b0;
     margin: 1rem 0 0;
 }
 
@@ -199,7 +201,7 @@ main.hero-section p {
 .highlight-list li {
     position: relative;
     padding-left: 1.6rem;
-    color: #4a4a4a;
+    color: #b0b0b0;
     line-height: 1.7;
 }
 
@@ -209,7 +211,7 @@ main.hero-section p {
     position: absolute;
     left: 0;
     top: 0.45rem;
-    color: #ff4b2b;
+    color: #ffb366;
     font-size: 1rem;
 }
 
@@ -222,7 +224,7 @@ main.hero-section p {
 .skill-groups h4 {
     margin: 0 0 0.75rem;
     font-size: 1rem;
-    color: #333;
+    color: #ffb366;
 }
 
 .skill-chip-row {
@@ -235,9 +237,9 @@ main.hero-section p {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, rgba(255, 65, 108, 0.12), rgba(255, 183, 160, 0.18));
-    color: #b83b2b;
-    border: 1px solid rgba(255, 75, 43, 0.16);
+    background: linear-gradient(135deg, rgba(255, 140, 66, 0.2), rgba(255, 179, 102, 0.25));
+    color: #ffb366;
+    border: 1px solid rgba(255, 140, 66, 0.3);
     padding: 0.7rem 1rem;
     border-radius: 999px;
     font-weight: 700;
@@ -247,7 +249,7 @@ main.hero-section p {
 
 .skill-chip:hover {
     transform: translateY(-2px);
-    box-shadow: 0 12px 24px rgba(255, 65, 108, 0.12);
+    box-shadow: 0 12px 24px rgba(255, 140, 66, 0.2);
 }
 
 .final-note {
@@ -279,24 +281,26 @@ main.hero-section p {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #ff416c, #ff4b2b);
-    color: #fff;
+    background: linear-gradient(135deg, #ff8c42, #ffb366);
+    color: #0f0f0f;
     padding: 1rem 2rem;
     border-radius: 999px;
     font-weight: 700;
-    box-shadow: 0 12px 24px rgba(255, 65, 108, 0.18);
+    box-shadow: 0 12px 24px rgba(255, 140, 66, 0.25);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 18px 28px rgba(255, 65, 108, 0.22);
+    box-shadow: 0 18px 28px rgba(255, 140, 66, 0.35);
 }
 
 footer {
     padding: 2rem 1.5rem;
     text-align: center;
-    color: #777;
+    color: #888;
+    background: linear-gradient(90deg, #0f0f0f 0%, #1a1a1a 100%);
+    border-top: 1px solid rgba(255, 140, 66, 0.15);
 }
 
 footer p {
@@ -322,13 +326,13 @@ footer p {
 }
 
 .skill-pill {
-    background: linear-gradient(135deg, #ff4b2b, #ff7b00);
-    color: white;
+    background: linear-gradient(135deg, #ff8c42, #ffb366);
+    color: #0f0f0f;
     padding: 10px 20px;
     border-radius: 50px;
     font-weight: bold;
     font-size: 0.9rem;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(255, 140, 66, 0.2);
 }
 
 .timeline {
@@ -338,15 +342,15 @@ footer p {
 }
 
 .timeline-card {
-    background: white;
+    background: rgba(30, 30, 30, 0.7);
     padding: 20px;
-    border-left: 5px solid #ff416c;
+    border-left: 5px solid #ff8c42;
     border-radius: 4px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .timeline-card .date {
-    color: #ff4b2b;
+    color: #ffb366;
     font-weight: bold;
     font-size: 0.85rem;
 }
@@ -358,11 +362,11 @@ footer p {
 }
 
 .project-card {
-    background: white;
+    background: rgba(30, 30, 30, 0.7);
     border-radius: 18px;
     padding: 1.5rem;
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
-    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 140, 66, 0.15);
 }
 
 .project-card h3 {
@@ -371,7 +375,7 @@ footer p {
 }
 
 .project-card p {
-    color: #4f4f4f;
+    color: #b0b0b0;
     line-height: 1.7;
 }
 
@@ -379,10 +383,10 @@ footer p {
     max-width: 700px;
     margin: 2rem auto;
     padding: 2rem;
-    background: white;
+    background: rgba(30, 30, 30, 0.7);
     border-radius: 18px;
-    box-shadow: 0 14px 30px rgba(24, 24, 24, 0.08);
-    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 140, 66, 0.15);
 }
 
 .contact-card h2 {
@@ -401,7 +405,7 @@ footer p {
 }
 
 .contact-list li strong {
-    color: #ff416c;
+    color: #ffb366;
 }
 
 .certs-container {
@@ -413,17 +417,17 @@ footer p {
 
 .cert-card {
     display:flex;
-    background: white;
+    background: rgba(30, 30, 30, 0.7);
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    border: 1px solid #eee;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 140, 66, 0.2);
 }
 .cert-media {
     width: 200px;
     min-width: 200px;
-    background-color: #fcfcfc;
-    border-right: 1px solid #eee;
+    background-color: rgba(255, 140, 66, 0.08);
+    border-right: 1px solid rgba(255, 140, 66, 0.15);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -440,7 +444,7 @@ footer p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #ff4b2b;
+    color: #ffb366;
     gap: 8px;
     font-weight: bold;
     font-size: 0.85rem;
@@ -464,13 +468,13 @@ footer p {
 
 .cerft-info h3 {
     margin: 0 0 5px 0;
-    color: #222;
+    color: #ffb366;
     font-size: 11.3rem;
 }
 
 .cert-meta {
     margin: 0 0 15px 0;
-    color: #666;
+    color: #888;
     font-size: 0.9rem;
     font-weight: 500;
 }
@@ -478,35 +482,35 @@ footer p {
 .cert-skills-box h4 {
     margin: 0 0 8px 0;
     font-size: 0.85rem;
-    color: #444;
+    color: #ffb366;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
 .mini-tag {
-    background-color: #fff0ec;
-    color: #d43213;
+    background-color: rgba(255, 140, 66, 0.15);
+    color: #ffb366;
     padding: 4px 10px;
     border-radius: 4px;
     font-size: 0.8rem;
     font-weight: 600;
-    border: 1px solid rgba(255, 75, 43, 0.15);
+    border: 1px solid rgba(255, 140, 66, 0.25);
 }
 
 .timeline-projects-container {
     max-width: 800px;
     margin: 60px auto;
-    background: #ffffff;
+    background: rgba(30, 30, 30, 0.7);
     border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04), 0 1px 8px rgba(0, 0, 0, 0.02);
-    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), 0 1px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 140, 66, 0.15);
     overflow: hidden;
     transition: transform 0.3s ease;
 }
 
 .projects-section-header {
     padding: 32px 40px 10px 40px;
-    border-bottom: 2px solid #fff0ec;
+    border-bottom: 2px solid rgba(255, 140, 66, 0.2);
     display: inline-block;
     margin-left: 0;
 }
@@ -515,7 +519,7 @@ footer p {
     font-size: 1.6rem;
     font-weight: 800;
     letter-spacing: -0.5px;
-    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    background: linear-gradient(135deg, #ff8c42, #ffb366);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -534,7 +538,7 @@ footer p {
 .timeline-project-item h3 {
     font-size: 1.3rem;
     font-weight: 700;
-    color: #1a1a1a;
+    color: #e0e0e0;
     margin: 0 0 4px 0;
     letter-spacing: -0.2px;
 }
@@ -542,8 +546,8 @@ footer p {
 .project-timeline {
     font-size: 0.88rem;
     font-weight: 600;
-    color: #ff4b2b;
-    background-color: #fff0ec;
+    color: #0f0f0f;
+    background-color: #ffb366;
     display: inline-block;
     padding: 4px 12px;
     border-radius: 50px;
@@ -568,33 +572,33 @@ footer p {
 }
 
 .live-btn {
-    background: linear-gradient(135deg, #ff416c, #ff4b2b);
-    color: white;
-    box-shadow: 0 4px 12px rgba(255, 75, 43, 0.2);
+    background: linear-gradient(135deg, #ff8c42, #ffb366);
+    color: #0f0f0f;
+    box-shadow: 0 4px 12px rgba(255, 140, 66, 0.25);
 }
 
 .live-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(255, 75, 43, 0.35);
+    box-shadow: 0 6px 20px rgba(255, 140, 66, 0.4);
 }
 
 .git-btn {
-    color: #4a4a4a;
-    border: 1px solid #e0e0e0;
-    background-color: #ffffff;
+    color: #e0e0e0;
+    border: 1px solid rgba(255, 140, 66, 0.3);
+    background-color: rgba(30, 30, 30, 0.8);
 }
 
 .git-btn:hover {
-    background-color: #f9f9f9;
-    border-color: #adadad;
-    color: #1a1a1a;
+    background-color: rgba(255, 140, 66, 0.1);
+    border-color: #ff8c42;
+    color: #ffb366;
     transform: translateY(-2px);
 }
 
 .project-desc {
     font-size: 1rem;
     line-height: 1.6;
-    color: #4a4a4a;
+    color: #b0b0b0;
     margin: 0 0 20px 0;
 }
 
@@ -603,7 +607,7 @@ footer p {
     align-items: flex-start;
     flex-wrap: wrap;
     gap: 12px;
-    border-top: 1px dashed rgba(224, 224, 224, 0.8);
+    border-top: 1px dashed rgba(255, 140, 66, 0.2);
     padding-top: 18px;
     margin-top: 18px;
 }
@@ -613,7 +617,7 @@ footer p {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 800;
-    color: #a16d60;
+    color: #ffb366;
     margin-top: 4px;
 }
 
@@ -631,28 +635,28 @@ footer p {
     justify-content: center;
     font-size: 0.82rem;
     font-weight: 700;
-    color: #b53f2e;
-    background: linear-gradient(135deg, rgba(255, 75, 43, 0.16), rgba(255, 183, 160, 0.22));
+    color: #ffb366;
+    background: linear-gradient(135deg, rgba(255, 140, 66, 0.2), rgba(255, 179, 102, 0.25));
     padding: 8px 14px;
     border-radius: 999px;
-    border: 1px solid rgba(255, 75, 43, 0.1);
-    box-shadow: 0 10px 18px rgba(255, 75, 43, 0.08);
+    border: 1px solid rgba(255, 140, 66, 0.3);
+    box-shadow: 0 10px 18px rgba(255, 140, 66, 0.12);
     transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
 }
 
 .skill-tag:hover,
 .project-skill-tag:hover {
     transform: translateY(-2px);
-    box-shadow: 0 14px 28px rgba(255, 75, 43, 0.14);
-    background: linear-gradient(135deg, rgba(255, 75, 43, 0.24), rgba(255, 152, 133, 0.28));
+    box-shadow: 0 14px 28px rgba(255, 140, 66, 0.2);
+    background: linear-gradient(135deg, rgba(255, 140, 66, 0.3), rgba(255, 179, 102, 0.35));
 }
 
 .project-divider {
     border: 0;
     height: 1px;
-    background: linear-gradient(to right, #fff0ec, #e0e0e0, #fff0ec);
+    background: linear-gradient(to right, rgba(255, 140, 66, 0.15), rgba(255, 140, 66, 0.2), rgba(255, 140, 66, 0.15));
     margin: 12px 0;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 /* Academic Portfolio Styles */
@@ -673,7 +677,7 @@ footer p {
     font-size: 2.8rem;
     font-weight: 800;
     margin-bottom: 1rem;
-    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    background: linear-gradient(135deg, #ff8c42, #ffb366);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -681,30 +685,30 @@ footer p {
 
 .academic-hero p {
     font-size: 1.1rem;
-    color: #4a4a4a;
+    color: #b0b0b0;
     max-width: 700px;
     margin: 0 auto;
     line-height: 1.7;
 }
 
 .academic-overview {
-    background: rgba(255, 255, 255, 0.88);
-    border: 1px solid rgba(255, 75, 43, 0.12);
+    background: rgba(30, 30, 30, 0.7);
+    border: 1px solid rgba(255, 140, 66, 0.2);
     border-radius: 24px;
     padding: 2.5rem;
     margin-bottom: 3rem;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .academic-overview h2 {
     font-size: 1.8rem;
-    color: #1f1f1f;
+    color: #ffb366;
     margin-bottom: 1rem;
 }
 
 .academic-overview p {
     font-size: 1rem;
-    color: #4a4a4a;
+    color: #b0b0b0;
     line-height: 1.8;
 }
 
@@ -714,12 +718,12 @@ footer p {
 
 .year-section h2 {
     font-size: 1.8rem;
-    color: #1f1f1f;
+    color: #ffb366;
     margin-bottom: 0.8rem;
 }
 
 .year-section > p {
-    color: #4a4a4a;
+    color: #b0b0b0;
     font-size: 1rem;
     margin-bottom: 2rem;
     line-height: 1.7;
@@ -733,16 +737,16 @@ footer p {
 }
 
 .term-card {
-    background: rgba(255, 255, 255, 0.88);
-    border: 1px solid rgba(255, 75, 43, 0.12);
+    background: rgba(30, 30, 30, 0.7);
+    border: 1px solid rgba(255, 140, 66, 0.2);
     border-radius: 20px;
     padding: 24px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .term-card h3 {
     font-size: 1.2rem;
-    color: #ff4b2b;
+    color: #ffb366;
     margin-bottom: 1.2rem;
     font-weight: 700;
 }
@@ -757,7 +761,7 @@ footer p {
     display: flex;
     justify-content: space-between;
     padding: 0.7rem 0;
-    border-bottom: 1px solid rgba(240, 240, 240, 0.8);
+    border-bottom: 1px solid rgba(255, 140, 66, 0.1);
     font-size: 0.95rem;
 }
 
@@ -766,42 +770,42 @@ footer p {
 }
 
 .course-name {
-    color: #1f1f1f;
+    color: #e0e0e0;
     font-weight: 500;
 }
 
 .grade {
-    color: #4a4a4a;
+    color: #ffb366;
     font-weight: 600;
 }
 
 .year-summary {
-    background: linear-gradient(135deg, rgba(255, 75, 43, 0.08), rgba(255, 183, 160, 0.12));
-    border-left: 4px solid #ff4b2b;
+    background: linear-gradient(135deg, rgba(255, 140, 66, 0.15), rgba(255, 179, 102, 0.15));
+    border-left: 4px solid #ff8c42;
     padding: 1.5rem;
     border-radius: 8px;
     font-size: 0.95rem;
-    color: #3a3a3a;
+    color: #c0c0c0;
     line-height: 1.6;
 }
 
 .cis-pathway {
-    background: rgba(255, 255, 255, 0.88);
-    border: 1px solid rgba(255, 75, 43, 0.12);
+    background: rgba(30, 30, 30, 0.7);
+    border: 1px solid rgba(255, 140, 66, 0.2);
     border-radius: 24px;
     padding: 2.5rem;
     margin: 4rem 0;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .cis-pathway h2 {
     font-size: 1.8rem;
-    color: #1f1f1f;
+    color: #ffb366;
     margin-bottom: 1rem;
 }
 
 .cis-pathway p {
-    color: #4a4a4a;
+    color: #b0b0b0;
     margin-bottom: 2rem;
     font-size: 1rem;
 }
@@ -814,8 +818,8 @@ footer p {
 
 .pathway-card {
     text-align: center;
-    background: linear-gradient(135deg, rgba(255, 75, 43, 0.1), rgba(255, 183, 160, 0.15));
-    border: 1px solid rgba(255, 75, 43, 0.2);
+    background: linear-gradient(135deg, rgba(255, 140, 66, 0.15), rgba(255, 179, 102, 0.15));
+    border: 1px solid rgba(255, 140, 66, 0.25);
     border-radius: 16px;
     padding: 24px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -823,18 +827,18 @@ footer p {
 
 .pathway-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 12px 24px rgba(255, 75, 43, 0.12);
+    box-shadow: 0 12px 24px rgba(255, 140, 66, 0.2);
 }
 
 .pathway-card h3 {
     font-size: 1.1rem;
-    color: #1f1f1f;
+    color: #ffb366;
     margin-bottom: 0.8rem;
     font-weight: 700;
 }
 
 .pathway-card .course-name {
-    color: #4a4a4a;
+    color: #b0b0b0;
     font-size: 0.95rem;
     margin-bottom: 0.8rem;
 }
@@ -842,7 +846,7 @@ footer p {
 .pathway-grade {
     font-size: 2rem;
     font-weight: 800;
-    color: #ff4b2b;
+    color: #ffb366;
 }
 
 .academic-summary {
@@ -851,7 +855,7 @@ footer p {
 
 .academic-summary h2 {
     font-size: 1.8rem;
-    color: #1f1f1f;
+    color: #ffb366;
     margin-bottom: 2rem;
     text-align: center;
 }
@@ -864,16 +868,16 @@ footer p {
 }
 
 .subject-card {
-    background: rgba(255, 255, 255, 0.88);
-    border: 1px solid rgba(255, 75, 43, 0.12);
+    background: rgba(30, 30, 30, 0.7);
+    border: 1px solid rgba(255, 140, 66, 0.2);
     border-radius: 20px;
     padding: 24px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .subject-card h3 {
     font-size: 1.2rem;
-    color: #ff4b2b;
+    color: #ffb366;
     margin-bottom: 1.2rem;
     font-weight: 700;
 }
@@ -886,9 +890,9 @@ footer p {
 
 .summary-list li {
     padding: 0.6rem 0;
-    border-bottom: 1px solid rgba(240, 240, 240, 0.8);
+    border-bottom: 1px solid rgba(255, 140, 66, 0.1);
     font-size: 0.95rem;
-    color: #1f1f1f;
+    color: #e0e0e0;
 }
 
 .summary-list li:last-child {
@@ -896,13 +900,13 @@ footer p {
 }
 
 .summary-list strong {
-    color: #ff4b2b;
+    color: #ffb366;
     font-weight: 700;
 }
 
 .key-achievements {
-    background: linear-gradient(135deg, rgba(255, 65, 108, 0.1), rgba(255, 183, 160, 0.15));
-    border: 1px solid rgba(255, 75, 43, 0.2);
+    background: linear-gradient(135deg, rgba(255, 140, 66, 0.15), rgba(255, 179, 102, 0.15));
+    border: 1px solid rgba(255, 140, 66, 0.25);
     border-radius: 24px;
     padding: 2.5rem;
     margin-top: 3rem;
@@ -910,7 +914,7 @@ footer p {
 
 .key-achievements h2 {
     font-size: 1.8rem;
-    color: #1f1f1f;
+    color: #ffb366;
     margin-bottom: 1.5rem;
 }
 
@@ -923,9 +927,9 @@ footer p {
 .achievements-list li {
     padding: 1rem 0 1rem 2.5rem;
     position: relative;
-    color: #3a3a3a;
+    color: #b0b0b0;
     line-height: 1.8;
-    border-bottom: 1px solid rgba(255, 75, 43, 0.1);
+    border-bottom: 1px solid rgba(255, 140, 66, 0.1);
 }
 
 .achievements-list li:last-child {
@@ -937,7 +941,7 @@ footer p {
     position: absolute;
     left: 0;
     font-weight: 800;
-    color: #ff4b2b;
+    color: #ffb366;
     font-size: 1.2rem;
 }
 
